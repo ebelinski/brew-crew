@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -35,9 +35,9 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .cd-header {
@@ -107,21 +107,21 @@ Main Components
   background-color: #bf5138;
 }
 .cd-fixed-background.img-1 .cd-content::after {
-  background: url("../img/img-mobile-1.jpg") no-repeat;
+  background: url("../raw-images/bauhaus.jpg") no-repeat;
   background-size: 100% auto;
 }
 .cd-fixed-background.img-2 {
   background-color: #f2e6cd;
 }
 .cd-fixed-background.img-2 .cd-content::after {
-  background: url("../img/img-mobile-2.jpg") no-repeat;
+  background: url("../raw-images/boomisland.jpg") no-repeat;
   background-size: 100% auto;
 }
 .cd-fixed-background.img-3 {
   background-color: #0f594d;
 }
 .cd-fixed-background.img-3 .cd-content::after {
-  background: url("../img/img-mobile-3.jpg") no-repeat;
+  background: url("../raw-images/surly.jpg") no-repeat;
   background-size: 100% auto;
 }
 .cd-fixed-background.img-4 {
@@ -160,13 +160,17 @@ Main Components
     display: none !important;
   }
   .cd-fixed-background.img-1 {
-    background-image: url("../img/img-1.jpg");
+    background-image: url("../images/bauhaus-25.png");
+    background-color: #bf5138;
+
   }
   .cd-fixed-background.img-2 {
-    background-image: url("../img/img-2.jpg");
+    background-image: url("../images/boomisland-25.png");
+    background-color: #f2e6ce;
   }
   .cd-fixed-background.img-3 {
-    background-image: url("../img/img-3.jpg");
+    background-image: url("../images/surly-25.png");
+    background-color: #184e44;
   }
   .cd-fixed-background.img-4 {
     background-image: url("../img/img-4.jpg");
